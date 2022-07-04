@@ -31,6 +31,7 @@ function UseMemoHook() {
         }
       });
     });
+    return longestWord;
   }, []);
 
   const longestWord = useMemo(
